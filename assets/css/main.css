@@ -1,0 +1,144 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+
+.bold_text {
+    font-weight: 600;
+}
+
+
+:root {
+    --border: 1px solid red;
+}
+
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-width : 320px) {
+
+    /*-----TOP CONTENTS-----*/
+
+    .top_body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50%;
+        flex-flow: column;
+
+    }
+
+    .title {
+        margin: 0;
+        font-weight: 200;
+        font-size: 20px;
+    }
+
+    .number_of_docs {
+        margin: 0;
+        opacity: 0.5;
+    }
+
+    /*-----//  TOP CONTENTS-----*/
+    /*-----TAB CONTENTS-----*/
+
+
+    .tab_wrap {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+        background-color: #222222;
+
+
+    }
+
+    .tab_contents {
+        height: 75% !important;
+        width: 100% !important;
+        margin: auto;
+        display: flex;
+        flex-flow: column;
+
+
+    }
+
+    .tabs {
+        width: calc(85% - 10px) !important;
+        height: calc(90% - 10px) !important;
+        padding: 10px;
+        margin: auto;
+        margin-bottom: 100px;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        border-top: 2px solid #f1f1f1;
+        border-bottom: 2px solid #f1f1f1;
+
+    }
+
+    .crisis_tab {
+        justify-content: space-evenly;
+    }
+
+    .tab_number {
+        color: #f1f1f1;
+        margin: 0;
+        font-size: 3.5em;
+    }
+
+    .tab_line {
+        width: 30px;
+        margin: 0;
+    }
+
+    .crisis_tab_line {
+        width: 100px;
+    }
+    .tab_title {
+        color: #f1f1f1;
+        margin: 10px 0 0 0;
+    }
+
+    .tab_description {
+        color: #f1f1f1;
+        font-weight: 200;
+    }
+
+    .crisis_tab_description {
+        color: #f1f1f1;
+        text-align: center;
+    }
+
+    .crisis_title {
+        color: #f1f1f1;
+        font-size: 3em;
+        margin: 0;
+        color: red;
+        text-align: center;
+    }
+
+    .crisis_subtitle {
+        margin: 0;
+        color: #f1f1f1;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .swiper-pagination-progressbar,
+    .swiper-pagination-progressbar-fill {
+        color: greenyellow !important;
+        height: 100px !important;
+    }
+
+
+    /*-----//  TAB CONTENTS-----*/
+
+}
