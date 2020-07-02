@@ -1,5 +1,30 @@
 $(document).ready(function () {
 
+
+    // Window onload events
+
+    
+    function onLoadEvents() {
+        $('.top_body').animate({
+            height: '50%'
+        }, function () {
+            $('.title').animate({
+                opacity: '1'
+            }, function () {
+                $('.tabs').animate({
+                    opacity: '1'
+                }, function() {
+                    $('.number_of_docs').delay(800).animate({
+                        opacity: '0.5'
+                    })
+                })
+            })
+        })
+    }
+    window.onload = onLoadEvents;
+
+
+
     // swiper js for tabs
 
     var mySwiper = new Swiper('.swiper-container', {
