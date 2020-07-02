@@ -97,11 +97,15 @@ html {
     .tab_line {
         width: 30px;
         margin: 0;
+        border: 2px solid #fff;
     }
 
     .crisis_tab_line {
         width: 100px;
+        border: 2px solid #fff;
+
     }
+
     .tab_title {
         color: #f1f1f1;
         margin: 10px 0 0 0;
@@ -110,11 +114,13 @@ html {
     .tab_description {
         color: #f1f1f1;
         font-weight: 200;
+        opacity: 0.7;
     }
 
     .crisis_tab_description {
         color: #f1f1f1;
         text-align: center;
+        opacity: 0.7;
     }
 
     .crisis_title {
@@ -140,5 +146,84 @@ html {
 
 
     /*-----//  TAB CONTENTS-----*/
+
+}
+
+@media only screen and (min-width : 768px) {
+
+    /*----TOP CONTENTS----*/
+    .title {
+        font-size: 30px;
+    }
+
+    .number_of_docs {
+        font-size: 20px;
+    }
+
+    /*----//  TOP CONTENTS----*/
+    /*----TABS----*/
+    .tabs {
+        width: calc(75% - 10px) !important;
+        height: calc(80% - 10px) !important;
+
+    }
+
+    .tab_title {
+        font-size: 40px;
+
+    }
+
+    .tab_description {
+        font-size: 20px;
+    }
+
+    /*----//  TABS----*/
+
+}
+
+@media only screen and (min-width : 1024px) {
+
+    /*----TOP CONTENTS----*/
+    .title {
+        font-size: 45px;
+    }
+
+    .number_of_docs {
+        font-size: 25px;
+    }
+
+    /*----//  TOP CONTENTS----*/
+    /*----TABS----*/
+    
+    
+    .tabs {
+        width: calc(60% - 10px) !important;
+        height: calc(65% - 10px) !important;
+        border-top: 3px solid #f1f1f1;
+        border-bottom: 3px solid #f1f1f1;
+
+        
+    }
+
+    .tab_description {
+        font-size: 25px;
+    }
+
+    .crisis_subtitle {
+        font-size: 30px;
+    }
+
+    .crisis_tab_description {
+        font-size: 25px;
+    }
+
+    .tab_line {
+        
+    }
+    
+    
+    
+    /*----//  TABS----*/
+
 
 }
