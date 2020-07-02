@@ -150,8 +150,110 @@ html {
         height: 100px !important;
     }
 
-
     /*-----//  TAB CONTENTS-----*/
+    /*----------HISTORY DOCUMENTS----------*/
+    /*-----TOP CONTENTS-----*/
+
+    #history_body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+
+        background-color: #222222;
+    }
+
+    .top_history_body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .archives_title {
+        color: #f1f1f1;
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+        z-index: 2;
+
+    }
+
+    .skip_to_buttons {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .doc_titles {
+        color: #f1f1f1;
+        display: flex;
+        opacity: 0.5;
+        margin: 0;
+    }
+
+    /*-----//  TOP CONTENTS-----*/
+    /*-----HISTORY DOCUMENTS-----*/
+
+    .document_wrap {
+        height: 85%;
+        width: 100%;
+        display: flex;
+
+    }
+
+    .document_contents {
+        width: 90%;
+        height: 95%;
+        margin: auto;
+        overflow: auto;
+
+    }
+
+    .word_history_title {
+        width: 100%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #000;
+        background-color: #f1f1f1;
+    }
+
+    .history_list {
+        list-style: none;
+        padding: 0;
+        margin: 15px 0px;
+        
+        
+    }
+
+    .world_history_item {
+        color: #f1f1f1;
+        margin-bottom: 10px;
+        text-align: center;
+        
+    }
+
+    .in_list_title {
+        text-align: center;
+        color: #000;
+        font-weight: 600;
+        background-color: #f1f1f1;
+    }
+
+
+
+    /*-----//  HISTORY DOCUMENTS-----*/
+
+
+
+
+    /*----------//  HISTORY DOCUMENTS----------*/
 
 }
 

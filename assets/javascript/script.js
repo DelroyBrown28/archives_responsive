@@ -33,17 +33,9 @@ $(document).ready(function () {
     }
     setInterval(timeUpdate, 1000);
 
-    // Takes you to The Crisis
-    $('.crisis_tab').click(function () {
-        $('.tab_fade').animate({
-            opacity: '0'
-        }, 200, function () {
-            $('.top_contents_index').delay(500).animate({
-                height: '0'
-            }, 200, function () {
-                location.href = 'the_crisis.html';
-            })
-        })
-    });
+
+    // Takes you to 
+
+
 
 })
