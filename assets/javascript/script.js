@@ -1,41 +1,6 @@
 $(document).ready(function () {
 
 
-    // Window onload events
-
-    var smallerScreens = window.matchMedia("(min-width: 320px)");
-    var largerScreens = window.matchMedia("(min-width: 1224px)")
-
-        if (smallerScreens.matches) {
-            window.addEventListener('load', function () {
-                $('.top_body').delay(500).animate({
-                    height: '50%'
-                }, function () {
-                    $('.title').animate({
-                        opacity: '1'
-                    }, function () {
-                        $('.number_of_docs').animate({
-                            opacity: '1'
-                        }, function () {
-                            $('.tabs').animate({
-                                opacity: '1'
-                            })
-                        })
-                    })
-                })
-            })
-        }
-    
-    
-
-        if (largerScreens.matches) {
-            window.addEventListener('load', function () {
-                $('.top_body').animate({
-                    height: '60%'
-                })
-            })
-        }
-
 
     // swiper js for tabs
 
